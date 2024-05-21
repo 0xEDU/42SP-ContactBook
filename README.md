@@ -1,3 +1,4 @@
+
 # 42SP-ContactBook
 Esse repositório tem a finalidade de auxiliar no ensino do desenvolvimento web.
 
@@ -20,3 +21,6 @@ Uma vez que o serviço esteja em pé, você terá acesso a um banco de dados **P
 ##
 
 Estas tabelas serão usadas ao longo dos exercícios propostos.
+
+# Como fazer as entregas
+Caso tenha interesse que seu exercício seja corrigido, crie um fork deste projeto e torne-o público. Ao término, sinalize que deseja que seu projeto seja corrigido. Todas as considerações serão adicionadas ao projeto através de um arquivo markdown chamado Review que será adicionado durante a correção.
