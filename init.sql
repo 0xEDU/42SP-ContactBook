@@ -9,7 +9,7 @@ create table if not exists contacts (
 );
 
 create table if not exists users (
-  id_contact int generated always as identity,
+  id_user int generated always as identity,
   user_name text,
   user_email text,
   user_password text
