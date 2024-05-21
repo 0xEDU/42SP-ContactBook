@@ -38,3 +38,21 @@ São **obrigatórios** os seguintes pontos:
  - Deve ser utilizado algum [ORM](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
 	 - ORMs populares incluem [Prisma](https://www.prisma.io/), [Sequelize](https://sequelize.org/) e [Drizzle](https://orm.drizzle.team/)
  - Obrigatório o uso de [Typescript](https://www.typescriptlang.org/)
+
+## Frontend
+O frontend terá que realizar as seguintes tarefas:
+
+ 1. Criar uma tela para exibir todos os contatos cadastrados
+ 2. Criar uma tela para cadastrar um novo contato
+
+São **obrigatórios** os seguintes pontos:
+
+ - Deverá ser usado um framework de frontend dentre os listados:
+	 - [Angular](https://angular.io/quick-start) | [React](https://vitejs.dev/guide/)
+ - Neste momento **não é permitido** o uso de frameworks de CSS
+ - Independente do framework selecionado, é obrigatório o uso de [Typescript](https://www.typescriptlang.org/)
+
+## Pontos de atenção
+**Typescript** é uma linguagem **tipada** que *permite* o uso de variáveis fracamente tipadas. Variáveis que não possuem tipo ou que fazem uso de tipos implícitos, são chamadas de variáveis do tipo **any**. Em **todos** projetos (frontend e backend), é **expressamente proibido o uso do tipo any!**
+
+### Happy Coding!
