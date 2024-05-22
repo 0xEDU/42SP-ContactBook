@@ -1,4 +1,4 @@
-import Contact from '../models/Contact'
+import { Contact, CreateContactDTO } from '../models/Contact'
 
 export default class ContactService {
   public listContacts(): Contact[] {
@@ -10,5 +10,13 @@ export default class ContactService {
       cpf: '12345678900'
     };
     return [contact];
+  }
+  
+  public createContact(contact: CreateContactDTO): Contact {
+    console.log(contact)
+    return {
+      id: 1,
+      ...contact
+    }
   }
 }
