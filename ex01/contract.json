@@ -1,0 +1,42 @@
+// GET /v1/list-contacts
+{
+	"contacts_list": [
+		{
+			"id": 1,
+			"name": "",
+			"email": "",
+			"phone_number": "",
+			"cpf": ""
+		},
+		{
+			"id": 2,
+			"name": "",
+			"email": "",
+			"phone_number": "",
+			"cpf": ""
+		}
+	]
+}
+
+// POST /v1/create-contact
+
+// Request body
+{
+	"contact": {
+		"name": "",
+		"email": "",
+		"phone_number": "",
+		"cpf": ""
+	}
+}
+
+// Response
+{
+	"contact": {
+		"id": 1,
+		"name": "",
+		"email": "",
+		"phone_number": "",
+		"cpf": ""
+	}
+}
