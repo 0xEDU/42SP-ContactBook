@@ -13,7 +13,6 @@ export default class ContactService {
   }
   
   public createContact(contact: CreateContactDTO): Contact {
-    console.log(contact)
     return {
       id: 1,
       ...contact

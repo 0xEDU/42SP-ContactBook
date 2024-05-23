@@ -9,6 +9,6 @@ export interface Contact {
 export interface CreateContactDTO {
   name: string,
   email: string,
-  phoneNumber: string,
+  phone_number: string,
   cpf: string,
 }
