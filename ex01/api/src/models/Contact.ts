@@ -1,14 +1,7 @@
 export interface Contact {
   id: number,
-  name: string,
-  email: string,
-  phoneNumber: string,
-  cpf: string,
-}
-
-export interface CreateContactDTO {
-  name: string,
-  email: string,
-  phone_number: string,
-  cpf: string,
+  name: string | null,
+  email: string | null,
+  phone: string | null,
+  cpf: string | null,
 }
