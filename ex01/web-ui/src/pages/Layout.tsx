@@ -1,9 +1,10 @@
 import { Outlet, Link } from 'react-router-dom';
+import './Layout.css'
 
 export default function Layout() {
   return (
     <>
-      <nav>
+      <nav className="nav-bar">
         <ul>
           <li>
             <Link to='/'>Contact List</Link>

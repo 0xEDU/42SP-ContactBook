@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './pages/Layout'
-import ContactList from './pages/ContactList'
-import NewContact from './pages/NewContact'
+import ContactList from './pages/contact-list/ContactList'
+import NewContact from './pages/new-contact/NewContact'
 import './App.css'
 
 export default function App() {
