@@ -1,7 +1,7 @@
 const ContactList = () => {
   return (
     <>
-      <h1>Contact List</h1>
+      <h1 style={{ margin: 0 }}>Contact List</h1>
     </>
   );
 }

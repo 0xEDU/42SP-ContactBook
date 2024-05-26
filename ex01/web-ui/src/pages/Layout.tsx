@@ -7,7 +7,7 @@ export default function Layout() {
       <nav className="nav-bar">
         <ul>
           <li>
-            <Link to='/'>Contact List</Link>
+            <Link to='/'>Home</Link>
           </li>
           <li>
             <Link to='/new-contact'>Add Contact</Link>
