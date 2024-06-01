@@ -19,7 +19,9 @@ const NewContact = () => {
       setIsShowingError(true);
       return ;
     }
-    axios.post('http://localhost:8080/v1/create-contact', { contact: newContactData});
+    axios.post('http://localhost:8080/v1/create-contact',
+      { contact: newContactData }
+    );
     setIsShowingError(false);
   };
 
