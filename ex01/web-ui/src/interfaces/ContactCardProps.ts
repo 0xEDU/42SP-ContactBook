@@ -7,3 +7,4 @@ export default interface ContactCardProps {
 };
 
 export type ContactCardData = ContactCardProps;
+export type NewContactData = Pick<ContactCardProps, 'name' | 'email' | 'phone' | 'cpf'>
