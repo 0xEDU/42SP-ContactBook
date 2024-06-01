@@ -7,7 +7,7 @@ const ContactCard = (props: ContactCardProps) => {
       <p>Name: {props.name}</p>
       <p>Email: {props.email}</p>
       <p>Phone Number: {props.phone}</p>
-      <p>Cpf: {props.cpf}</p>
+      <p>CPF: {props.cpf}</p>
     </div>
   );
 }
